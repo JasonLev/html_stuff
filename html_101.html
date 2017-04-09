@@ -2,10 +2,37 @@
 <html>
 <head>
 	<title>HTML 101</title>
+	<style>
+		body {
+			margin:0px;
+		}
+		header > h1 {
+			background-color: black;
+			color: #fff;
+			padding: 20px;
+			font-family: avenir;
+			font-size: 4em;
+			margin: 0px;
+			text-align: center;
+		}
+		#lineBreak {
+			display: block;
+		}
+		.super {
+			vertical-align: super;
+			font-size: .75em;
+		}
+	</style>
 </head>
 <body>
-	<h1>HTML 101</h1>
-	<p>This is a practice page!</p>
-	<p>This is gonna be awesome!</p>
+	<header>
+		<h1>HTML 101</h1>
+		<h2>This is a fun page to test stuff and things.</h2>
+		<div>Interrupting div!</div>
+		<span>This is a span</span>
+		<span id="lineBreak">This is span 1 - linebreak?</span>
+		<span>Last span!</span>
+	</header>
+	<h5>Did you know... 2 <span class="super">3</span> = 8?</h5>
 </body>
 </html>
